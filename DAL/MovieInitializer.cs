@@ -11,7 +11,7 @@ namespace MovieApp.DAL
     {
         protected override void Seed(MovieContext context)
         {
-            new Genre { Name = "Comedy" };
+            new Genre { Name = "Action" };
             context.SaveChanges();
 
 
